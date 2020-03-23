@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+main {
+  margin: 2rem auto;
+  width: 70%;
+  background: white;
+  padding: 1rem;
+}
+img {
+  max-width: 100%;
+}
+.flex--container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+.flex--dir-row {
+  flex-direction: row;
+  flex: 0 1 auto;
+  flex-wrap: wrap;
+  margin-right: -0.5rem;
+  margin-left: -0.5rem;
+}
+.flex--col-4 {
+  box-sizing: border-box;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  -ms-flex-preferred-size: 33.333%;
+  -webkit-flex-basis: 33.333%;
+  flex-basis: 33.333%;
+  max-width: 33.333%;
+}
